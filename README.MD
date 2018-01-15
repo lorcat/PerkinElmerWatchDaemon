@@ -23,10 +23,13 @@ Each plugin has two settings controlling how often the plugin should fire (in te
 Each plugin has a locking (file lock) based mechanism, preventing from a launch before the previous instance of the same plugin has finished processing.
 
 Each plugin should be written in such a way that it demonstrates clearly it TICKTACK, TICKTACK_OFFSET parameters and functions entitled 'setup' and 'work'.
+TICKTACK controls periodicity of the starting event - e.g. every TICKTACK*DAEMON_TICKTACK, and TICKTACK_OFFSET controls an offset.
 More can be found \app\plugins\backup\plugin_test.py
 
-## specific Python dependencies (modules)
+## Specific Python dependencies (modules)
 plugin_base, h5, PyTango, fabio
 
 plugin functionality can be expanded, i.e. memcached - for timeout free communication of the external parameters to save and etc.
 
+# Other
+While the startup of the daemon is suggested within the Tango Server framework, the server can be also tested and run as an interface free process (control only via /app/config.ini and /app/config.py)
