@@ -26,10 +26,16 @@ Each plugin should be written in such a way that it demonstrates clearly it TICK
 TICKTACK controls periodicity of the starting event - e.g. every TICKTACK*DAEMON_TICKTACK, and TICKTACK_OFFSET controls an offset.
 More can be found \app\plugins\backup\plugin_test.py
 
+## Available plugins
+1. plugin_01_prepare_raw - check for the arrival of new files (raw), removes the darks, create a new temporary directory
+2. plugin_02_merge_data - processes new data, merges information from .META file into TIF, creates NeXuS file
+3. plugin_03_finalize - copies the processed data into a remote, relative to the RAM disk directory
+
 ## Specific Python dependencies (modules)
 plugin_base, h5, PyTango, fabio
 
 plugin functionality can be expanded, i.e. memcached - for timeout free communication of the external parameters to save and etc.
 
 # Other
-While the startup of the daemon is suggested within the Tango Server framework, the server can be also tested and run as an interface free process (control only via /app/config.ini and /app/config.py)
+While the startup of the daemon is suggested within the Tango Server framework, the server can be also tested and run as an interface free process (control only via /app/config.ini and /app/config.py).
+config.ini is created upon the first successful run.
