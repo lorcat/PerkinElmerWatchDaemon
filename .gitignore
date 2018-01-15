@@ -54,3 +54,5 @@ Temporary Items
 .apdisk
 *.log
 *.xml
+
+.gitignore
