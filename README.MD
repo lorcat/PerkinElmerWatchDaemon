@@ -7,10 +7,10 @@ QXRD produces .TIF and .META files. The amount of information stored by QXRD is 
 The idea behind the application is follows:
 1. QXRD saves files into a RAM drive created by [Imdisk](https://sourceforge.net/projects/imdisk-toolkit/)
 2. Daemon is started as a [Tango Server](http://www.tango-controls.org/) and runs in the background
-  2.1 It monitors raw files and cleans unnecessary files (dark files)
-  2.2 It merges the information located in the .META files produced by QXRD into the TIFF file
-  2.3 It creates a NeXuS file containing information on the experiment (by default - basic info from the META)
-  2.4 It outputs the newly processed files into an output folder
+    1. It monitors raw files and cleans unnecessary files (dark files)
+    2. It merges the information located in the .META files produced by QXRD into the TIFF file
+    3. It creates a NeXuS file containing information on the experiment (by default - basic info from the META)
+    4. It outputs the newly processed files into an output folder
 
 ## Operation
 Daemon runs on the base of intervals - ticks. The configuration of the tick interval is found in app/config.py.
