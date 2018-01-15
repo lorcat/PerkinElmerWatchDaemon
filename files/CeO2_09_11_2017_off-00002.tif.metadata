@@ -1,0 +1,32 @@
+[metadata]
+width=2048
+height=2048
+qxrdVersion=unknown
+qtVersion=unknown
+dataType=5
+dataTypeName=Subtracted Data
+fileBase=CeO2_09_11_2017_off-00002.tif
+fileName=T:/commissioning/raw/CeO2_Standard/CeO2_09_11_2017_off-00002.tif
+title=CeO2_09_11_2017_off-00002.tif
+readoutMode=0
+exposureTime=1
+summedExposures=10
+imageNumber=2
+phaseNumber=0
+nPhases=1
+dateTime=@Variant(\0\0\0\x10\0%\x81\xd3\x5\b\xeL\xff)
+dateString=2017.11.09 : 23:26:54.028
+hBinning=1
+vBinning=1
+cameraGain=3
+triggered=1
+userComment1=
+userComment2=
+userComment3=
+userComment4=
+imageSaved=1
+normalization=@Variant(\0\0\0\x7f\0\0\0\xfQcepDoubleList\0\0\0\0\0)
+used=true
+
+[normalization]
+size=0

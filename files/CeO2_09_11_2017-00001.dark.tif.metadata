@@ -1,0 +1,32 @@
+[metadata]
+width=2048
+height=2048
+qxrdVersion=0.8.3
+qtVersion=4.7.3
+dataType=2
+dataTypeName=32 Bit Raw Data
+fileBase=CeO2_09_11_2017-00001.dark.tif
+fileName=T:/commissioning/raw/CeO2_Standard/CeO2_09_11_2017-00001.dark.tif
+title=CeO2_09_11_2017-00001.dark.tif
+readoutMode=0
+exposureTime=1
+summedExposures=10
+imageNumber=-1
+phaseNumber=-1
+nPhases=0
+dateTime=@Variant(\0\0\0\x10\0%\x81\xd3\x4\xf7\x3\x11\xff)
+dateString=2017.11.09 : 23:08:17.041
+hBinning=1
+vBinning=1
+cameraGain=3
+triggered=1
+userComment1=
+userComment2=
+userComment3=
+userComment4=
+imageSaved=1
+normalization=@Variant(\0\0\0\x7f\0\0\0\xfQcepDoubleList\0\0\0\0\0)
+used=true
+
+[normalization]
+size=0

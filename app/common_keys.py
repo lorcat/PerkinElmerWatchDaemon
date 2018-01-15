@@ -1,0 +1,2 @@
+__author__ = 'Konstantin Glazyrin'
+NAME, TICKTACK, TICKTACK_OFFSET = "NAME", "TICKTACK", "TICKTACK_OFFSET"
