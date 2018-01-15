@@ -15,6 +15,7 @@ The idea behind the application is follows:
 ## Operation
 Daemon runs on the base of intervals - ticks. The configuration of the tick interval is found in app/config.py.
 The two parameters - DAEMON_MULTIPLIER and DAEMON_TICKTACK control time to wait between different ticks.
+
 **Time to wait = DAEMON_TICKTACK / DAEMON_MULTIPLIER**
 
 Expiration of the the wait interval triggers a test for additional functionality implemented through plugins.
