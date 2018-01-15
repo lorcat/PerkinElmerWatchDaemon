@@ -30,7 +30,7 @@ plugin_base = PluginBase(package='app.daemon',
 class Daemon(Tester):
     ID = "daemon"
 
-    TICKTACK = 1.
+    TICKTACK = DAEMON_TICKTACK
     MAX_COUNTER = 10000.
     MULTIPLIER = DAEMON_MULTIPLIER
 

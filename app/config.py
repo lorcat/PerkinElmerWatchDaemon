@@ -2,6 +2,7 @@ import os
 
 # main controls over the server tick tack - number used for division of a second 10=0.1s step - 10Hz
 DAEMON_MULTIPLIER = 3
+DAEMON_TICKTACK = 1.
 
 # main directory of the application folder for common use
 DIR_APP = os.path.dirname(__file__)
